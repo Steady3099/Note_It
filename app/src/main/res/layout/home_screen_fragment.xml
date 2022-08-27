@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="55dp">
+
+    <ImageView
+        android:id="@+id/noRecord_img"
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:visibility="gone"
+        android:src="@drawable/notes_icon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/noRecord_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Record Found"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:textColor="#800080"
+        app:layout_constraintTop_toBottomOf="@+id/noRecord_img"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scrollbars="vertical"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <View
+        android:id="@+id/back_drop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4D000000"
+        android:visibility="gone"
+        android:clickable="true"
+        android:fitsSystemWindows="true" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end|right"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:id="@+id/ll_checklist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end|right"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="#800080"
+                app:cardCornerRadius="3dp"
+                app:cardElevation="2dp"
+                app:contentPadding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:text="Checklist"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/img_checklist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginBottom="10dp"
+                android:clickable="true"
+                app:backgroundTint="#800080"
+                app:fabSize="mini"
+                android:src="@drawable/ic_baseline_fact_check_24"
+                app:rippleColor="@android:color/black" />
+
+            <View
+                android:layout_width="7dp"
+                android:layout_height="0dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_notes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end|right"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="#800080"
+                app:cardCornerRadius="3dp"
+                app:cardElevation="2dp"
+                app:contentPadding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="Notes"
+                    android:textStyle="bold"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/img_notes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="18dp"
+                android:layout_marginBottom="10dp"
+                android:clickable="true"
+                app:backgroundTint="#800080"
+                android:src="@drawable/ic_baseline_sticky_note_2_24"
+                app:fabSize="mini"
+                app:rippleColor="@android:color/black" />
+
+            <View
+                android:layout_width="7dp"
+                android:layout_height="0dp" />
+
+        </LinearLayout>
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginBottom="10dp"
+            android:clickable="true"
+            app:backgroundTint="#800080"
+            app:fabSize="normal"
+            app:srcCompat="@drawable/ic_baseline_add_24" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

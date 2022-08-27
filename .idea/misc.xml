@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/imart/Desktop/NoteIt/app/src/main/res/drawable-v24/ic_bell.xml" value="0.1295" />
+        <entry key="..\:/Users/imart/Desktop/NoteIt/app/src/main/res/drawable-v24/rounded_corner_grey_outline.xml" value="0.149" />
+        <entry key="..\:/Users/imart/Desktop/NoteIt/app/src/main/res/drawable/home_fragment.xml" value="0.149" />
+        <entry key="..\:/Users/imart/Desktop/NoteIt/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.149" />
+        <entry key="..\:/Users/imart/Desktop/NoteIt/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.184" />
+        <entry key="..\:/Users/imart/Desktop/NoteIt/app/src/main/res/drawable/ic_baseline_color_lens_24.xml" value="0.184" />
+        <entry key="..\:/Users/imart/Desktop/NoteIt/app/src/main/res/drawable/ic_baseline_fact_check_24.xml" value="0.184" />
+        <entry key="..\:/Users/imart/Desktop/NoteIt/app/src/main/res/drawable/ic_baseline_format_bold_24.xml" value="0.184" />
+        <entry key="..\:/Users/imart/Desktop/NoteIt/app/src/main/res/drawable/ic_baseline_format_italic_24.xml" value="0.184" />
+        <entry key="..\:/Users/imart/Desktop/NoteIt/app/src/main/res/drawable/ic_baseline_format_strikethrough_24.xml" value="0.184" />
+        <entry key="..\:/Users/imart/Desktop/NoteIt/app/src/main/res/drawable/ic_baseline_format_underlined_24.xml" value="0.184" />
+        <entry key="..\:/Users/imart/Desktop/NoteIt/app/src/main/res/drawable/ic_baseline_note_add_24.xml" value="0.149" />
+        <entry key="..\:/Users/imart/Desktop/NoteIt/app/src/main/res/drawable/ic_baseline_redo_24.xml" value="0.184" />
+        <entry key="..\:/Users/imart/Desktop/NoteIt/app/src/main/res/drawable/ic_baseline_sticky_note_2_24.xml" value="0.184" />
+        <entry key="..\:/Users/imart/Desktop/NoteIt/app/src/main/res/drawable/ic_baseline_undo_24.xml" value="0.184" />
+        <entry key="..\:/Users/imart/Desktop/NoteIt/app/src/main/res/drawable/ic_splash_screen.xml" value="0.1295" />
+        <entry key="..\:/Users/imart/Desktop/NoteIt/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/imart/Desktop/NoteIt/app/src/main/res/layout/checklist_card.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/imart/Desktop/NoteIt/app/src/main/res/layout/checklist_fragment.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/imart/Desktop/NoteIt/app/src/main/res/layout/home_screen_cards.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/imart/Desktop/NoteIt/app/src/main/res/layout/home_screen_fragment.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/imart/Desktop/NoteIt/app/src/main/res/layout/item_section.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/imart/Desktop/NoteIt/app/src/main/res/layout/note_checklist_section.xml" value="0.25" />
+        <entry key="..\:/Users/imart/Desktop/NoteIt/app/src/main/res/layout/notes_fragment.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/imart/Desktop/NoteIt/app/src/main/res/layout/rounded_corner_grey_outline.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/imart/Desktop/NoteIt/app/src/main/res/layout/splash_screen.xml" value="0.17447916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
