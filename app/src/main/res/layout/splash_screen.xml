@@ -21,13 +21,11 @@
         android:layout_height="wrap_content"
         android:textSize="50sp"
         android:text="Note It Down"
-        android:textColor="#800080"
         android:textStyle="bold"
+        android:textColor="#3f3d56"
         app:layout_constraintTop_toBottomOf="@+id/splash_img"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
