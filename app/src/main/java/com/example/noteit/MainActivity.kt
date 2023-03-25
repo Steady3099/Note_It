@@ -25,9 +25,9 @@ class MainActivity : AppCompatActivity() {
         mFragmentTransaction.replace(R.id.frame, mFragment).commit()
 
 
-        binding.imgMenu.setOnClickListener{
-            showHide()
-        }
+//        binding.imgMenu.setOnClickListener{
+//            showHide()
+//        }
 
     }
 
